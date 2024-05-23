@@ -123,6 +123,6 @@ hideSnackBar | To hide the ```SnackBar``` component
 Arg name | type | required | description
 --- | --- | --- | ---
 message | string | Y | text that you want to show in the ```SnackBar```
-type | "success" | "info" | "error" | Y | type of the ```SnackBar```
+type | "success" or "info" or "error" | Y | type of the ```SnackBar```
 
 
