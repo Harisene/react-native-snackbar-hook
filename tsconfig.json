@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2016",
+    "module": "commonjs",
+    "strict": true,
+    "jsx": "react", // Use "react" for React or "react-native" for React Native
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./lib",
+  },
+}

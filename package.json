@@ -1,0 +1,19 @@
+{
+  "name": "react-native-snackbar-hook",
+  "version": "1.0.0",
+  "description": "Customize the snackbar component as you wish",
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.3.2",
+    "@types/react-native": "^0.73.0",
+    "react-native": "^0.74.1",
+    "typescript": "^5.4.5"
+  }
+}
