@@ -88,13 +88,19 @@ const SnackBar: React.FC<Props> = (props) => {
       style={[styles.container, { transform: [{ translateY }] }]}
       onLayout={handleLayoutChange}
     >
-      {icon}
+      {renderIcon()}
       <View style={styles.messageContainer}>
         <Text style={styles.text}>{message}</Text>
       </View>
       {renderCloseButton()}
     </Animated.View>
   );
+
+  function renderIcon() {
+    if (!icon) return null;
+
+    return <View style={styles.iconContainer}>{icon}</View>;
+  }
 
   function renderCloseButton() {
     if (!showCloseButton) return null;
@@ -125,7 +131,7 @@ const SnackBar: React.FC<Props> = (props) => {
         alignSelf: "center",
         borderRadius: 10,
         paddingVertical: "4%",
-        paddingHorizontal: "8%",
+        paddingHorizontal: "4%",
         backgroundColor: color,
         flexDirection: "row",
         justifyContent: "space-between",
@@ -143,10 +149,15 @@ const SnackBar: React.FC<Props> = (props) => {
       closeButton: {
         flex: 1,
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
       },
       messageContainer: {
-        flex: 6
+        flex: 6,
+      },
+      iconContainer: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
       }
     });
   }
