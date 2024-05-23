@@ -1,13 +1,19 @@
 {
   "name": "react-native-snackbar-hook",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Customize the snackbar component as you wish",
   "main": "./lib/index.js",
-  "typings": "./lib/index.d.ts",
+  "typings": "./index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
+  "files": [
+    "lib",
+    "package.json",
+    "tsconfig.json",
+    "README.md"
+  ],
   "author": "Haritha Senevirathne",
   "repository": {
     "type": "git",

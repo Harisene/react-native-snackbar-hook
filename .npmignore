@@ -1,7 +1,0 @@
-node_modules
-.git
-providers
-components
-package-lock.json
-index.ts
-.DS_Store
