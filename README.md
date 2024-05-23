@@ -53,13 +53,11 @@ Wrap your screen component or the root component with ```SnackBarProvider```
 ```
 import { SnackBarProvider } from 'react-native-snackbar-hook';
 
-  <GestureHandlerRootView style={{ flex: 1 }}>
-    <SnackBarProvider>
-      <NavigationContainer>
-        <Stacks/>
-      </NavigationContainer>
-    </SnackBarProvider>
-  </GestureHandlerRootView>
+<SnackBarProvider>
+  <NavigationContainer>
+    <Stacks/>
+  </NavigationContainer>
+</SnackBarProvider>
 
 ```
 
