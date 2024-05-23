@@ -8,7 +8,23 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
-  "author": "",
+  "author": "Haritha Senevirathne",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Harisene/react-native-snackbar-hook"
+  },
+  "bugs": {
+    "url": "https://github.com/Harisene/react-native-snackbar-hook/issues"
+  },
+  "keywords": [
+    "react",
+    "react native",
+    "snackbar",
+    "component",
+    "react-native-snackbar",
+    "react native snackbar",
+    "react-native-snack-bar"
+  ],
   "license": "ISC",
   "devDependencies": {
     "@types/react": "^18.3.2",
