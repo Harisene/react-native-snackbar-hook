@@ -3,6 +3,10 @@
 <br>
 
 ![Screen Recording 2024-05-23 at 3 02 52 PM (2)](https://github.com/Harisene/react-native-snackbar-hook/assets/33250282/f014eeab-16fb-4a23-9706-19bb7827e9d1)
+![info basic](https://github.com/Harisene/react-native-snackbar-hook/assets/33250282/18c3960d-45da-4623-8ab3-da69751db3ad)
+![success basic](https://github.com/Harisene/react-native-snackbar-hook/assets/33250282/6798ce05-5b8d-44ff-8919-b6abb539e491)
+![success icon](https://github.com/Harisene/react-native-snackbar-hook/assets/33250282/73001d4d-a467-4e51-9054-ce745aed699a)
+
 
 <br>
 <br>
