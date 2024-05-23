@@ -2,7 +2,7 @@
 
 <br>
 
-![Screen Recording 2024-05-23 at 3 02 52 PM](https://github.com/Harisene/react-native-snackbar-hook/assets/33250282/c5be18a6-534b-4b38-8a56-5b456fc724ee)
+![Screen Recording 2024-05-23 at 3 02 52 PM (2)](https://github.com/Harisene/react-native-snackbar-hook/assets/33250282/f014eeab-16fb-4a23-9706-19bb7827e9d1)
 
 <br>
 <br>
