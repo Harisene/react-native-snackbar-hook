@@ -47,11 +47,13 @@ const SnackBar: React.FC<Props> = (props) => {
           endAnimation();
         }, duration);
       }
-    } else {
+    }
+
+    if (!props.visible) {
       endAnimation();
     }
     return () => {
-      if (!props.visible && timer && autoHide) {
+      if (!props.visible || (timer && autoHide)) {
         clearTimeout(timer);
       }
     };
@@ -89,9 +91,11 @@ const SnackBar: React.FC<Props> = (props) => {
       onLayout={handleLayoutChange}
     >
       {renderIcon()}
-      <View style={styles.messageContainer}>
-        <Text style={styles.text}>{message}</Text>
-      </View>
+      {message && (
+        <View style={styles.messageContainer}>
+          <Text style={styles.text}>{message}</Text>
+        </View>
+      )}
       {renderCloseButton()}
     </Animated.View>
   );
@@ -148,17 +152,17 @@ const SnackBar: React.FC<Props> = (props) => {
       },
       closeButton: {
         flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
+        justifyContent: "center",
+        alignItems: "center",
       },
       messageContainer: {
         flex: 6,
       },
       iconContainer: {
         flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-      }
+        justifyContent: "center",
+        alignItems: "center",
+      },
     });
   }
 };
