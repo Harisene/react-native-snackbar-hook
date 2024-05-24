@@ -1,6 +1,6 @@
 {
   "name": "react-native-snackbar-hook",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Customize the snackbar component as you wish",
   "main": "./lib/index.js",
   "typings": "./index.d.ts",
@@ -12,7 +12,8 @@
     "lib",
     "package.json",
     "tsconfig.json",
-    "README.md"
+    "README.md",
+    "index.d.ts"
   ],
   "author": "Haritha Senevirathne",
   "repository": {
